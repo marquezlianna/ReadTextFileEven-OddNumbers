@@ -7,5 +7,11 @@ def process():
         # print all even numbers in the list
             if input_num % 2 == 0:
             # write to even.txt
-                output_even.write(str(input_num) + "\n")        
+                output_even.write(str(input_num) + "\n")
+        # print all odd numbers in the list
+            else:
+                # write to odd.txt
+                output_odd.write(str(input_num) + "\n")
 
+# === start ===
+process()
