@@ -4,4 +4,8 @@ def process():
         # read numbers.txt line by line
         for line in input_file:
             input_num = int(line)
-            
+        # print all even numbers in the list
+            if input_num % 2 == 0:
+            # write to even.txt
+                output_even.write(str(input_num) + "\n")        
+
